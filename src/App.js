@@ -103,8 +103,8 @@ function App() {
     <BrowserRouter>
     <Nav/>
       <Routes>
-        <Route path='/' element={<Home products={products} />} />
-        <Route path='/product/:id' element={<ProductDetail products={products} />} />
+        <Route path='/amaicherry-react' element={<Home products={products} />} />
+        <Route path='/amaicherry-react/product/:id' element={<ProductDetail products={products} />} />
       </Routes>
     <Footer/>
     </BrowserRouter>
