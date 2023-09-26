@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/home/Home';
 import ProductDetail from './pages/productDetail/ProductDetail';
 import Nav from './components/Nav/Nav';
@@ -100,14 +100,14 @@ function App() {
     },
   ];
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Nav/>
       <Routes>
         <Route path='/' element={<Home products={products} />} />
         <Route path='/product/:id' element={<ProductDetail products={products} />} />
       </Routes>
     <Footer/>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
