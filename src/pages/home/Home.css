@@ -4,10 +4,3 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.product-card{
-    display: flex;
-    flex-direction: column;
-    width: 15em;
-    height: 30em;
-    text-align: center;
-}
