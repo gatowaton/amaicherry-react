@@ -11,6 +11,9 @@ function Home({products}) {
         <div className='page'>
             <h1>Lista de Productos</h1>
             <ProductsCard products={products}/>
+            <div className='pageback'>
+                <h1>sadsa</h1>
+            </div>
         </div>
     )
 }
