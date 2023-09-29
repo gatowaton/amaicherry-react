@@ -4,7 +4,7 @@
     padding: 1em;
     text-align: center;
     margin: 0.5em;
-    background-color: #CAEDFF;
+    background-image: url(../patternCard.svg);
     border-radius: 20px;
     justify-content: center;
 }
@@ -15,3 +15,4 @@
     margin: 1em auto;
     border-radius: 20px;
 }
+

@@ -1,0 +1,20 @@
+.page-product-detail{
+    padding-top: 7em;
+    background-image: url(../../components/pattern.svg);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-detail-block-1 img{
+    width: 20em;
+    height: 20em;
+    border-radius: 20px;
+}
+
+.product-detail-social{
+    width: 3em;
+    height: 3em;
+    margin: 1em 0.5em;
+}

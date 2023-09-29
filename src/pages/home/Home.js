@@ -1,19 +1,18 @@
 import React from 'react'
 import "./Home.css"
 import ProductsCard from '../../components/ProductsCard/ProductsCard'
+import HomeSlider from './HomeSlider'
 
 
 
 
-function Home({products}) {
+function Home({theProduct}) {
 
     return (
         <div className='page'>
+            <HomeSlider/>
             <h1>Lista de Productos</h1>
-            <ProductsCard products={products}/>
-            <div className='pageback'>
-                <h1>sadsa</h1>
-            </div>
+            <ProductsCard theProduct={theProduct}/>
         </div>
     )
 }

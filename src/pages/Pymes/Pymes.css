@@ -1,0 +1,7 @@
+.page-pymes{
+    padding-top: 7em;
+    background-image: url(../../components/pattern.svg);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

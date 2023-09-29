@@ -28,7 +28,9 @@ function Nav() {
           <SearchIcon style={IconStyle} />
         </div>
         <div className={click ? 'nav-slider clicked' : "nav-slider"}>
-          <h3>sadsad</h3>
+          <Link to={"/pymes"}>
+            <p>Pymes</p>
+          </Link>
           <h3>sadsad</h3>
 
           <h3>sadsad</h3>

@@ -2,22 +2,27 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import "./ProductsCard.css"
 
-function ProductsCard({products}) {
+function ProductsCard({ theProduct }) {
   return (
-    <div className='card-container'>
-    {products.map((product) => (
-        <div className='product-card' key={product.id}>
-            <img src={product.image} alt={product.title} />
-            <h2>{product.title}</h2>
-            <p>Categoría: {product.categoria}</p>
-            <p>Marca: {product.marca}</p>
-            <p>Precio: ${product.precio}</p>
-            <Link to={`/product/${product.id}`}>
+<div >
+      {theProduct.map((ownerData, index) => (
+        <div className='card-container' key={index}>
+          {/* <p>Social: {ownerData.social}</p> */}
+          {ownerData.products.map((product) => (
+            <div className='product-card' key={product.id}>
+              <img src={product.image} alt={product.title} />
+              <h3>{product.title}</h3>
+              <p>{ownerData.owner}</p>
+              <strong>${product.price}</strong>
+              <Link to={`/product/${product.id}`}>
                 <button className='learn-more'>Ver Detalles</button>
-            </Link>
+              </Link>
+            </div>
+          ))}
         </div>
-    ))}
-</div>
+      ))}
+    </div>
+
   )
 }
 
