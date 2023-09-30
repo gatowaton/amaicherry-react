@@ -105,6 +105,7 @@ export const products = [
 export const theProduct = [
   {
     owner: "amai ichigo",
+    logo: "https://i.pinimg.com/750x/93/85/0d/93850dcc9981b84dbc5d21a768001ab1.jpg",
     instagram: "https://www.instagram.com/amai.ichigo_/",
     tiktok:"https://www.tiktok.com/@anii.chan",
     products: [{
@@ -139,7 +140,9 @@ export const theProduct = [
   },
   {
     owner: "amaicherry",
-    social: "youtube.com",
+    logo: "https://i.pinimg.com/750x/6c/98/d1/6c98d1145ff6dab9776a4afb9cb9e436.jpg",
+    instagram: "https://www.instagram.com/amaicherrystore/",
+    tiktok:"https://www.tiktok.com/@anii.chan",
     products: [{
       id: 2000,
       title: "gorro",

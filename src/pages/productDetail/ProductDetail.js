@@ -32,7 +32,10 @@ function ProductDetail({ theProduct }) {
       <div className='product-detail-block-2'>
         {owner && (
           <div className='product-detail-block-2-1'>
-            <h2>Propietario: {owner.owner}</h2>
+            <div className='product-detail-owner-block-1'>
+            <img className='product-detail-owner-logo' src={owner.logo} alt={owner.logo} />
+            <h2>{owner.owner}</h2>
+            </div>
             <a href={owner.instagram} target='_blank' rel="noreferrer">
               <img src={instagram} alt={instagram} className='product-detail-social' />
             </a>

@@ -9,6 +9,7 @@
 
 .page{
   padding-top: 7em;
+  padding-bottom: 7em;
   background-image: url(./components/pattern.svg);
 }
 

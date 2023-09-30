@@ -1,5 +1,6 @@
 .page-product-detail{
     padding-top: 7em;
+    padding-bottom: 7em;
     background-image: url(../../components/pattern.svg);
     display: flex;
     flex-direction: row;
@@ -13,8 +14,31 @@
     border-radius: 20px;
 }
 
+.product-detail-owner-block-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.product-detail-block-2-1{
+    margin: 1em;
+    text-align: center;
+}
+
+.product-detail-owner-block-1{
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product-detail-owner-logo{
+    width: 4em;
+    height: 4em;
+    border-radius: 100px;
+}
+
 .product-detail-social{
     width: 3em;
     height: 3em;
     margin: 1em 0.5em;
 }
+

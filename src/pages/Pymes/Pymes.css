@@ -1,7 +1,30 @@
 .page-pymes{
     padding-top: 7em;
+    padding-bottom: 7em;
     background-image: url(../../components/pattern.svg);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.pymes-owner-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pymes-owner-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.pymes-owner-logo{
+    width: 4em;
+    height: 4em;
+    border-radius: 100px;
 }
